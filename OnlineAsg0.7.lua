@@ -1050,10 +1050,10 @@ function CARM3()
 end
 function ZOOM()
   ZM = gg.multiChoice({
-    "1.🚫 [GAME] X2 Zoom 🚫",
-    "2.🚫 [GAME] X4 Zoom 🚫",
-    "3.🚫 [GAME] X8 Zoom 🚫",
-    "4.🚫 [GAME] X15 Zoom 🚫",
+    "1.🚫 [GAME] On X4 Zoom 🚫",
+    "2.🚫 [GAME] Off X4 Zoom 🚫",
+    "3.🚫 [GAME] On X8 Zoom 🚫",
+    "4.🚫 [GAME] Off X8 Zoom 🚫",
     "5.🚫 [GAME] Red Dot 🚫",
     "6.🚫 [GAME] Red Dot 2 🚫",
     "\226\158\168\239\184\143 BACK"
