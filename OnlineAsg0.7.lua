@@ -1090,7 +1090,7 @@ gg.searchNumber("55", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(300)
 gg.editAll("20", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast("On X8")
+gg.toast("On X4")
 end
 
 function Z2()
