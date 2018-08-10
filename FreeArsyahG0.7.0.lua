@@ -1,5 +1,6 @@
 gg.toast("loading....)
-gg.makeRequest("https://arsyahg.github.io/ASG/")
+gg.makeRequest("https://raw.githubusercontent.com/ArsyahG/ASG/master/FreeArsyahG0.7.0.lua
+")
 gg.toast(os.date([[
 Today: %Y/%m/%d Time: %H:%M:%S
 www.youtube.com/c/ArsyahG]]))
