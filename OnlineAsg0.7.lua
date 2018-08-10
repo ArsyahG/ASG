@@ -26,41 +26,9 @@ gg.toast("www.youtube.com/c/ArsyahG")
   gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
   gg.clearResults(850)
   gg.toast("Successful")
- -----------------------------START OF THE SECURITY CODE-----------------------------  
-
-pass = '1111'
-
-prompt = gg.prompt({'🔎Enter Password'},{[1]=0},{[1]='number'});
-
-function right()
-
-  gg.alert("✔ sukses")
-
-end
-
-function wrong()
-
-  gg.alert("✖ Error")
-
-  os.exit();
-
-end
-
-if prompt[1] == pass then
-
-right()
-
-else
-
-wrong()
-
-end
-
------------------------------End OF THE SECURITY CODE-------------------------------
 
 HOME = 1
 function HOME()
-  HM = gg.choice({
     HM = gg.choice({
     "🔥 Wallhack and Color ",
     "🔥 Lobby ",
