@@ -45,7 +45,6 @@ else
 wrong()
 end
 -----------------------------End OF THE SECURITY CODE-------------------------------
-gg.makeRequest("https://raw.githubusercontent.com/ArsyahG/ASG/master/FreeArsyahG0.7.0.lua")
 
 HOME = 1
 function HOME()
