@@ -34,8 +34,6 @@ function bypassHelp()
   if bypassHelpAlert == 2 then startBypass() end
 end
 
-
-
 function startBypass()
   gg.setVisible(false)
   bypassAlert = gg.alert("Bypass Now?", "What is this?", "NO", "YES")
