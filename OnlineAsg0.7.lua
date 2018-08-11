@@ -48,20 +48,17 @@ startBypass()
 HOME = 1
 function HOME()
     HM = gg.choice({
-    "🌀🌀 WALLHACK & COLOR 🌀🌀 ",
-    "🌀🌀🌀🌀🌀 LOBBY 🌀🌀🌀🌀🌀",
-    "🌀🌀🌀🌀🌀 GAMES 🌀🌀🌀🌀🌀",
-    "🌀🌀🌀🌀 VIEW MENU 🌀🌀🌀🌀",
-    "🌀🌀🌀🌀 CAR MENU 🌀🌀🌀🌀",
-    "🌀🌀🌀🌀 ZOOM MENU 🌀🌀🌀🌀",
-    "🌀🌀🌀🌀 HEAD MENU 🌀🌀🌀🌀",
+    "🏛 WALLHACK & COLOR ",
+    "🏛 LOBBY MENU ",
+    "🏛 GAMES MENU ",
+    "🏛 VIEW MENU ",
+    "🏛 CARs MENU ",
+    "🏛 ZOOM MENU ",
+    "🏛 HEAD MENU ",
     "\226\158\168\239\184\143 EXIT ",
   "\226\156\179\239\184\143 MY Contact \226\156\179\239\184\143"
   }, nil, [[
-🗡VIP ASG 0.7 🇮🇩
-youtube: Asyah G
-Telegram: @OrangBias4
-Instagram: @arsyah_g]])
+🗡VIP ASG 0.7 🇮🇩]])
   if HM == 1 then
     WNC()
   end
@@ -588,13 +585,13 @@ gg.toast("Wallhack Kirin Aktif")
 end
 function LOBB()
   LB = gg.multiChoice({
-  "1.🌌 New Magic Bullet ",
-  "2.🌌 New Magic Bullet V2 ",
-  "3.🌌 New Magic Bullet V3 ",
-  "4.🌌 No Recoil ",
-  "5.🌌 Less Recoil ",
+  "1.💢 New Magic Bullet ",
+  "2.💢 New Magic Bullet V2 ",
+  "3.💢 New Magic Bullet V3 ",
+  "4.💢 No Recoil ",
+  "5.💢 Less Recoil ",
   "\226\158\168\239\184\143 BACK \226\158\168\239\184\143"
-  }, nil, "🌌 Lobby Menu 🌌")
+  }, nil, "💢 Lobby Menu 💢")
   if LB == nil then
   else
   if LB[1] == true then
@@ -1278,12 +1275,12 @@ function CARM3()
 end
 function ZOOM()
   ZM = gg.multiChoice({
-    "1.🚫 [GAME] On X4 Zoom 🚫",
-    "2.🚫 [GAME] Off X4 Zoom 🚫",
-    "3.🚫 [GAME] On X8 Zoom 🚫",
-    "4.🚫 [GAME] Off X8 Zoom 🚫",
-    "5.🚫 [GAME] Red Dot 🚫",
-    "6.🚫 [GAME] Red Dot 2 🚫",
+    "1.🚫 [GAME] On X4 Zoom ",
+    "2.🚫 [GAME] Off X4 Zoom ",
+    "3.🚫 [GAME] On X8 Zoom ",
+    "4.🚫 [GAME] Off X8 Zoom ",
+    "5.🚫 [GAME] Red Dot ",
+    "6.🚫 [GAME] Red Dot 2 ",
     "\226\158\168\239\184\143 BACK"
   }, nil, "🚫Zoom Menu🚫")
   if ZM == nil then
