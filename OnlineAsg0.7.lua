@@ -30,13 +30,13 @@ gg.toast("www.youtube.com/c/ArsyahG")
 HOME = 1
 function HOME()
     HM = gg.choice({
-    "🔥 Wallhack and Color ",
-    "🔥 Lobby ",
-    "🔥 Games ",
-    "🔥 View Menu ",
-    "🔥 Car Menu ",
-    "🔥 Zoom Menu",
-    "🔥 Head Menu",
+    "🔥🔥 Wallhack and Color 🔥🔥 ",
+    "🔥🔥        Lobby       🔥🔥",
+    "🔥🔥        Games       🔥🔥",
+    "🔥🔥      View Menu     🔥🔥",
+    "🔥🔥      Car Menu      🔥🔥",
+    "🔥🔥      Zoom Menu     🔥🔥",
+    "🔥🔥      Head Menu     🔥🔥",
     "\226\158\168\239\184\143 EXIT ",
   "\226\156\179\239\184\143 MY Contact \226\156\179\239\184\143"
   }, nil, [[
@@ -1145,11 +1145,11 @@ function Z5()
  end
  function HEAD()
   HO = gg.choice({
-    "1.\226\147\130\239\184\143 [GAME] HeadOnly\n open Scope ",
-    "2.\226\147\130\239\184\143 [GAME] HeadOnly 2\n open Scope ",
-    "3.\226\147\130\239\184\143 [GAME] Auto hit\n 50%body 50%headshoot ",
+    "1.🚀 [GAME] HeadOnly\n open Scope ",
+    "2.🚀 [GAME] HeadOnly 2\n open Scope ",
+    "3.🚀 [GAME] Auto hit\n 50%body 50%headshoot ",
     "\226\158\168\239\184\143 BACK"
-  }, nil, "headshoot Menu")
+  }, nil, "🚀Headshoot Menu🔥")
   if HO == 1 then
     HO1()
   end
@@ -1173,13 +1173,11 @@ gg.editAll('1010', gg.TYPE_FLOAT)
 gg.toast('HeadOnly telah aktif')
 end
 function HO2()
-gg.clearResults()
 gg.setRanges(gg.REGION_BAD)
 gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(2)
 gg.editAll("460", gg.TYPE_FLOAT)
-gg.toast("Processing")
 gg.clearResults()
 gg.searchNumber("-88.73961639404;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
