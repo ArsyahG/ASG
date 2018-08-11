@@ -4,7 +4,7 @@ www.youtube.com/c/ArsyahG]]))
 gg.alert("@𝐎𝐫𝐚𝐧𝐠𝐁𝐢𝐚𝐬𝟒")
 gg.toast("www.youtube.com/c/ArsyahG")
 
- gg.alert("Izinkan bypass")
+function BPSS()
   gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
   gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
   gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
@@ -26,6 +26,26 @@ gg.toast("www.youtube.com/c/ArsyahG")
   gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
   gg.clearResults(850)
   gg.toast("Successful")
+end
+
+function bypassHelp()
+  bypassHelpAlert = gg.alert("Bypass - Function to protect against crashes. \nWithout it, your PUBG with a propability of 90% will exit after you try to activate something. \nYou need to start bypass at the correct time, it must be started at the begin of Tencent & Lighspeed logo. \nProbably, while you're reading this, the game had time to load and you need to restart it again.", "Finish script \nand exit the game", "Back to selection")
+  if bypassHelpAlert == 1 then gg.processKill() os.exit() end
+  if bypassHelpAlert == 2 then startBypass() end
+end
+
+
+
+function startBypass()
+  gg.setVisible(false)
+  bypassAlert = gg.alert("Bypass Now?", "What is this?", "NO", "YES")
+  if bypassAlert == 3 then BPSS() end
+  if bypassAlert == 2 then end
+  if bypassAlert == 1 then bypassHelp() end
+end
+
+startBypass()
+
 
 HOME = 1
 function HOME()
