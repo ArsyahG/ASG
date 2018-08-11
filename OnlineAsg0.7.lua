@@ -56,7 +56,7 @@ function HOME()
     "💎[MENU] ZOOM ",
     "💎[MENU] Head ",
     "❌🔚❌",
-  "\📧 MY Contact "
+  "\📧 𝐀𝐫𝐬𝐲𝐚𝐡 𝐆 "
   }, nil, [[
 🗡VIP ASG 0.7 🇮🇩
     @OrangBias4]])
