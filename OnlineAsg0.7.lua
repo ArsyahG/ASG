@@ -48,14 +48,14 @@ startBypass()
 HOME = 1
 function HOME()
     HM = gg.choice({
-    "▶ WALLHACK & COLOR ",
-    "▶[MENU] Lobby ",
-    "▶[MENU] Game ",
-    "▶[MENU] View ",
-    "▶[MENU] Car ",
-    "▶[MENU] ZOOM ",
-    "▶[MENU] Head ",
-    "🔙",
+    "💎 WALLHACK & COLOR ",
+    "💎[MENU] Lobby ",
+    "💎[MENU] Game ",
+    "💎[MENU] View ",
+    "💎[MENU] Car ",
+    "💎[MENU] ZOOM ",
+    "💎[MENU] Head ",
+    "❌🔚❌",
   "\📧 MY Contact "
   }, nil, [[
 🗡VIP ASG 0.7 🇮🇩
