@@ -95,6 +95,9 @@ function WNC()
   "18.\226\154\161\239\184\143 White\n All Devices [Lobby] \226\154\161\239\184\143",
   "19.\226\154\161\239\184\143 Black\n All Devices [Lobby]\226\154\161\239\184\143",
   "20.\226\154\161\239\184\143 HOT Color\226\154\161\239\184\143",
+  "21.\226\154\161\239\184\143 Purple (SD 425-435)\226\154\161\239\184\143",
+  "22.\226\154\161\239\184\143 Red 2 \226\154\161\239\184\143",
+  "23.\226\154\161\239\184\143 WallHack 410-435 \226\154\161\239\184\143",
   "\226\158\168\239\184\143 BACK \226\158\168\239\184\143"
   }, nil, "\226\156\168\239\184\143 WH & Color Menu \226\156\168\239\184\143")
   if WC == nil then
@@ -158,8 +161,17 @@ function WNC()
     end
   if WC[20] == true then
       C15()
-    end             
+    end 
   if WC[21] == true then
+      C16()
+    end
+  if WC[22] == true then
+      C17()
+    end
+   if WC[23] == true then
+      WALLSD()
+    end
+  if WC[24] == true then
       HOME()
     end
   end
@@ -274,7 +286,6 @@ gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(80)
 gg.editAll("120", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast("By RIC 2210")
 gg.toast("Wallhack SD 425-435 Aktif")
 gg.clearResults()
 end
@@ -446,6 +457,37 @@ gg.getResults(100)
 gg.editAll("222222", gg.TYPE_DWORD)
 gg.toast("HOT Color telah aktif")
 end
+function C16()
+ gg.setRanges(gg.REGION_BAD)
+ gg.clearResults()
+ gg.searchNumber("589826", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
+ gg.getResults(20050309)
+ gg.editAll("673736", gg.TYPE_DWORD)
+gg.toast("purple SD 425-435 Aktif")
+end
+function C17()
+ gg.setRanges(gg.REGION_BAD)
+ gg.clearResults()
+ gg.searchNumber("589826", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
+ gg.getResults(666222)
+ gg.editAll("-2222", gg.TYPE_DWORD)
+gg.toast("Red Aktif")
+end
+function WALLSD()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("227;1073741824;1073741824;-1082130432;1073741824:29",gg.TYPE_DWORD,false,gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1073741824", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(500)
+  gg.editAll("1123024896", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.searchNumber("27;15;26;23;1,073,741,824;24;-1,082,130,432:61", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1,073,741,824", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("1,123,024,896", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.toast("Wallhack SD 410-425 Aktif")
+  gg.clearResults()
+  end
 function LOBB()
   LB = gg.multiChoice({
   "1.🔥 New Magic Bullet 🔥",
