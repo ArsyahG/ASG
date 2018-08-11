@@ -48,17 +48,18 @@ startBypass()
 HOME = 1
 function HOME()
     HM = gg.choice({
-    "🏛 WALLHACK & COLOR ",
-    "🏛 LOBBY MENU ",
-    "🏛 GAMES MENU ",
-    "🏛 VIEW MENU ",
-    "🏛 CARs MENU ",
-    "🏛 ZOOM MENU ",
-    "🏛 HEAD MENU ",
-    "\226\158\168\239\184\143 EXIT ",
-  "\226\156\179\239\184\143 MY Contact \226\156\179\239\184\143"
+    "▶ WALLHACK & COLOR ",
+    "▶[MENU] Lobby ",
+    "▶[MENU] Game ",
+    "▶[MENU] View ",
+    "▶[MENU] Car ",
+    "▶[MENU] ZOOM ",
+    "▶[MENU] Head ",
+    "🔙",
+  "\📧 MY Contact "
   }, nil, [[
-🗡VIP ASG 0.7 🇮🇩]])
+🗡VIP ASG 0.7 🇮🇩
+    @OrangBias4]])
   if HM == 1 then
     WNC()
   end
@@ -108,7 +109,7 @@ function WNC()
   "15.🌈 HOT Color ",
   "16.🌈 Purple\n [SD 425-435]",
   "17.🌈 Rainbow ",
-  "\226\158\168\239\184\143 BACK \226\158\168\239\184\143"
+  "🔙"
   }, nil, "🌈 WH & Color Menu 🌈")
   if WC == nil then
   else
@@ -372,8 +373,8 @@ function MENUWH()
   "6.💠Wallhack [SD 425/435 V2]",
   "7.💠Wallhack [MEDIATEK]",
   "8.💠Wallhack [KIRIN]",    
-  "\226\158\168\239\184\143 BACK \226\158\168\239\184\143"
-  }, nil, "💠 Lobby Menu 💠")
+  "🔙"
+  }, nil, "💠 Wallhack Menu 💠")
   if MWH == nil then
   else
   if MWH[1] == true then
@@ -590,7 +591,7 @@ function LOBB()
   "3.💢 New Magic Bullet V3 ",
   "4.💢 No Recoil ",
   "5.💢 Less Recoil ",
-  "\226\158\168\239\184\143 BACK \226\158\168\239\184\143"
+  "🔙"
   }, nil, "💢 Lobby Menu 💢")
   if LB == nil then
   else
@@ -696,7 +697,7 @@ function GAMEM()
   "25.🎮 Increase Damage ",
   "26.🎮 Weapon Antenna ",
   "27.🎮 High Jump ",    
-  "\226\158\168\239\184\143 BACK "
+  "🔙"
   }, nil, "🎮 GAME Menu 🎮")
   if GM == nil then
   else
@@ -1136,7 +1137,7 @@ function VIEW()
     "4.🌄 [GAME] Black Sky ",
     "5.🌄 [GAME] Open Sit Scope ",
     "6.🌄 [GAME] Off Sit Scope ",
-    "\226\158\168\239\184\143 BACK"
+    "🔙"
   }, nil, "🌄View Menu🌄")
   if VW == nil then
   else
@@ -1227,7 +1228,7 @@ function CAR()
     "1.🚜 [GAME] Jeep Drive in water ",
     "2.🚜 [GAME] Drive Through Wall ",
     "3.🚜 [GAME] Jeep Acceleration ",
-    "\226\158\168\239\184\143 BACK"
+    "🔙"
   }, nil, "🚜Cars Menu🚜")
   if CARM == nil then
   else
@@ -1281,7 +1282,7 @@ function ZOOM()
     "4.🚫 [GAME] Off X8 Zoom ",
     "5.🚫 [GAME] Red Dot ",
     "6.🚫 [GAME] Red Dot 2 ",
-    "\226\158\168\239\184\143 BACK"
+    "🔙"
   }, nil, "🚫Zoom Menu🚫")
   if ZM == nil then
   else
@@ -1375,7 +1376,7 @@ function Z5()
     "2.🚀 [GAME] HeadShot\n open Scope ",
     "3.🚀 [GAME] Auto hit\n 50%body 50%headshot ",
     "4.🚀 [GAME] NEW Headshot ",  
-    "\226\158\168\239\184\143 BACK"
+    "🔙"
   }, nil, "🚀Headshoot Menu🚀")
   if HO == 1 then
     HO1()
@@ -1463,7 +1464,7 @@ function MC()
   KR = gg.choice({
     "\226\156\137\239\184\143 Telegram: @OrangBias4",
     "\226\156\137\239\184\143 Instagram: @arsyah_g",
-    "\226\158\168\239\184\143 Back "
+    "🔙"
   }, nil, "Untuk mendapatkan Script VIP Hubungi saya(Arsyah G)")
   if KR == 1 then
     MC()
