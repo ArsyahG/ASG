@@ -93,223 +93,86 @@ Instagram: @arsyah_g]])
 end
 function WNC()
   WC = gg.multiChoice({
-  "1.\226\154\161\239\184\143 Wallhack Mediatek \226\154\161\239\184\143",
-  "2.\226\154\161\239\184\143 Wallhack Kirin \226\154\161\239\184\143",
-  "3.\226\154\161\239\184\143 Wallhack 835-845\226\154\161\239\184\143",
-  "4.\226\154\161\239\184\143 Wallhack Global \226\154\161\239\184\143",
-  "5.\226\154\161\239\184\143 Wallhack 425-435 \226\154\161\239\184\143",
-  "6.\226\154\161\239\184\143 Green \226\154\161\239\184\143",
-  "7.\226\154\161\239\184\143 Red \226\154\161\239\184\143",
-  "8.\226\154\161\239\184\143 Pixel \226\154\161\239\184\143",
-  "9.\226\154\161\239\184\143 Glowing (HDR)\226\154\161\239\184\143",
-  "10.\226\154\161\239\184\143 Yelow \226\154\161\239\184\143",
-  "11.\226\154\161\239\184\143 White \226\154\161\239\184\143",
-  "12.\226\154\161\239\184\143 Black \226\154\161\239\184\143",
-  "13.\226\154\161\239\184\143 RGB \226\154\161\239\184\143",
-  "14.\226\154\161\239\184\143 Crystal \226\154\161\239\184\143",
-  "15.\226\154\161\239\184\143 Purple \226\154\161\239\184\143",
-  "16.\226\154\161\239\184\143 Blue (HDR) \226\154\161\239\184\143",
-  "17.\226\154\161\239\184\143 Red (HDR) \226\154\161\239\184\143",
-  "18.\226\154\161\239\184\143 White\n All Devices [Lobby] \226\154\161\239\184\143",
-  "19.\226\154\161\239\184\143 Black\n All Devices [Lobby]\226\154\161\239\184\143",
-  "20.\226\154\161\239\184\143 HOT Color\226\154\161\239\184\143",
-  "21.\226\154\161\239\184\143 Purple (SD 425-435)\226\154\161\239\184\143",
-  "22.\226\154\161\239\184\143 Rainbow \226\154\161\239\184\143",
-  "23.\226\154\161\239\184\143 WallHack 410-435 \226\154\161\239\184\143",
-  "24.\226\154\161\239\184\143 WallHack 425-435 V2 \226\154\161\239\184\143",
+  "🔮WALLHACK MENU🔮",
+  "1.🌈 Green ",
+  "2.🌈 Red ",
+  "3.🌈 Pixel ",
+  "4.🌈 Glowing (HDR)",
+  "5.🌈 Yelow ",
+  "6.🌈 White ",
+  "7.🌈 Black ",
+  "8.🌈 RGB ",
+  "9.🌈 Crystal ",
+  "10.🌈 Purple ",
+  "11.🌈 (HDR) ",
+  "12.🌈 Red (HDR) ",
+  "13.🌈 White\n Global [Lobby] ",
+  "14.🌈 Black\n Global [Lobby] ",
+  "15.🌈 HOT Color ",
+  "16.🌈 Purple\n [SD 425-435]",
+  "17.🌈 Rainbow ",
   "\226\158\168\239\184\143 BACK \226\158\168\239\184\143"
-  }, nil, "\226\156\168\239\184\143 WH & Color Menu \226\156\168\239\184\143")
+  }, nil, "🌈 WH & Color Menu 🌈")
   if WC == nil then
   else
   if WC[1] == true then
-      WHM()
+      MENUWH()
     end
   if WC[2] == true then
-      WHK()
-  end
-  if WC[3] == true then
-      WHS()
-    end
-  if WC[4] == true then
-      WHSD()
-    end
-  if WC[5] == true then
-      WHS4()
-    end  
-  if WC[6] == true then
       C1()
     end
-  if WC[7] == true then
+  if WC[3] == true then
       C2()
     end
-  if WC[8] == true then
+  if WC[4] == true then
       C3()
     end
-  if WC[9] == true then
+  if WC[5] == true then
       C4()
     end
-  if WC[10] == true then
+  if WC[6] == true then
       C5()
     end
-  if WC[11] == true then
+  if WC[7] == true then
       C6()
     end
-  if WC[12] == true then
+  if WC[8] == true then
       C7()
     end
-  if WC[13] == true then
+  if WC[9] == true then
       C8()
     end
-  if WC[14] == true then
+  if WC[10] == true then
       C9()
     end
-  if WC[15] == true then
+  if WC[11] == true then
       C10()
     end
-  if WC[16] == true then
+  if WC[12] == true then
       C11()
     end
-  if WC[17] == true then
+  if WC[13] == true then
       C12()
     end
-  if WC[18] == true then
+  if WC[14] == true then
       C13()
     end
-  if WC[19] == true then
+  if WC[15] == true then
       C14()
     end
-  if WC[20] == true then
+  if WC[16] == true then
       C15()
     end 
-  if WC[21] == true then
+  if WC[17] == true then
       C16()
     end
-  if WC[22] == true then
+  if WC[18] == true then
       C17()
     end
-   if WC[23] == true then
-      WALLSD()
-    end
-   if WC[24] == true then
-      WALSD2()
-    end
-  if WC[25] == true then
+  if WC[19] == true then
       HOME()
     end
   end
-end
-function WHM()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("8E;2.5;6.0255834e-44::150", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("-999", gg.TYPE_FLOAT)
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("539,246,596;8200D;2.4903147e21F", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(3)
-gg.editAll("8300", gg.TYPE_DWORD)
-gg.alert("Izinkan")
-gg.searchNumber("10000;0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("0", gg.TYPE_FLOAT) gg.toast("Wallhack Mediatek Aktif")
-end
-function WHK()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("2;-1;0;1;-127::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(20)
-gg.editAll("20", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges (gg.REGION_BAD)
-gg.searchNumber("4,141D;4.7408155e21;-5.5693206e-40;4.814603e21;3.7615819e-37;2:", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(2) gg.editAll("100", gg.TYPE_FLOAT)
-gg.clearResults() 
-gg.setRanges (gg.REGION_BAD)
-gg.searchNumber("-1.0285578e-38;3.7615819e-37;2;-1;1;-127::300", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(20)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Wallhack Kirin Aktif")
-end
-function WHS()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("5.1097599e21;2.0;1.6623071e-19;3.6734297e-39;1.66433e10::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(30)
-  gg.editAll("200", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.searchNumber("-5.5693206e-40;4.814603e21;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(30)
-  gg.editAll("120", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("2.0;-1.0;0.0;1.0;-127.0::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(30)
-  gg.editAll("200", gg.TYPE_FLOAT)
-  gg.toast("Wallhack telah aktif")
-  gg.clearResults()
-end
-function WHSD()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("4.814603e21;3.5032462e-44;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(30)
-  gg.editAll("120", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("-5.5693206e-40;4.814603e21;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(30)
-  gg.editAll("120", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("5.1848043e-44;-1.0285578e-38;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(30)
-  gg.editAll("120", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("304.00009155273;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(30)
-  gg.editAll("120", gg.TYPE_FLOAT)
-  gg.toast("WallHack Global telah aktif")
-end
-function WHS4()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("4.814603e21;3.5032462e-44;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(80)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("-5.5693206e-40;4.814603e21;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(80)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("5.1848043e-44;-1.0285578e-38;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(80)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("304.00009155273;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(80)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Wallhack SD 425-435 Aktif")
-gg.clearResults()
 end
 function C1()
   gg.clearResults()
@@ -501,7 +364,126 @@ gg.getResults(10)
 gg.editAll("8", gg.TYPE_DWORD)
 gg.toast("Rainbow Aktif")
 end
-function WALLSD()
+
+function MENUWH()
+  MWH = gg.multiChoice({
+  "1.💠Wallhack [SD 835/845]",
+  "2.💠Wallhack [SD 625]",
+  "3.💠Wallhack [Global]",
+  "4.💠Wallhack [SD 410/435]",
+  "5.💠Wallhack [SD 425/435]",
+  "6.💠Wallhack [SD 425/435 V2]",
+  "7.💠Wallhack [MEDIATEK]",
+  "8.💠Wallhack [KIRIN]",    
+  "\226\158\168\239\184\143 BACK \226\158\168\239\184\143"
+  }, nil, "💠 Lobby Menu 💠")
+  if MWH == nil then
+  else
+  if MWH[1] == true then
+      WH1()
+    end
+  if MWH[2] == true then
+      WH2()
+  end
+  if MWH[3] == true then
+      WH3()
+    end
+  if MWH[4] == true then
+      WH4()
+    end
+  if MWH[5] == true then
+      WH5()
+    end 
+  if MWH[6] == true then
+      WH6()
+    end
+  if MWH[7] == true then
+      WH7()
+    end
+  if MWH[8] == true then
+      WH8()
+    end      
+  if MWH[9] == true then
+      HOME()
+    end
+  end
+end
+function WH1()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("5.1097599e21;2.0;1.6623071e-19;3.6734297e-39;1.66433e10::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(30)
+  gg.editAll("200", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.searchNumber("-5.5693206e-40;4.814603e21;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(30)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("2.0;-1.0;0.0;1.0;-127.0::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(30)
+  gg.editAll("200", gg.TYPE_FLOAT)
+  gg.toast("Wallhack telah aktif")
+  gg.clearResults()
+end
+function WH2()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("1,900,553;178;37;2F::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(20)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("2.25;3.75000071526;331,813D;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(20)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("720,918;1,081,081,860;397,358;50,331,648;2F::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(20)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("671,236,101;1,074,790,406;178;12;2F::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(20)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Wallhack SD 625 Aktif")
+end
+function WH3()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("4.814603e21;3.5032462e-44;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(30)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("-5.5693206e-40;4.814603e21;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(30)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("5.1848043e-44;-1.0285578e-38;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(30)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("304.00009155273;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(30)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.toast("WallHack Global Aktif")
+end
+function WH4()
   gg.clearResults()
   gg.setRanges(gg.REGION_C_ALLOC)
   gg.searchNumber("227;1073741824;1073741824;-1082130432;1073741824:29",gg.TYPE_DWORD,false,gg.SIGN_EQUAL, 0, -1)
@@ -516,7 +498,36 @@ function WALLSD()
   gg.toast("Wallhack SD 410-425 Aktif")
   gg.clearResults()
   end
-function WALSD2()
+function WH5()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("4.814603e21;3.5032462e-44;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(80)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("-5.5693206e-40;4.814603e21;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(80)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("5.1848043e-44;-1.0285578e-38;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(80)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("304.00009155273;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(80)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Wallhack SD 425-435 Aktif")
+gg.clearResults()
+end
+function WH6()
   gg.clearResults()
   gg.setRanges(gg.REGION_BAD)
   gg.searchNumber("4,141D;4.7408155e21;-5.5693206e-40;4.814603e21;3.7615819e-37;2:", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
@@ -538,15 +549,52 @@ function WALSD2()
   gg.toast("100%")
   gg.toast("Wallhack 435/425 V2 Aktif")
 end
+function WH7()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("8E;2.5;6.0255834e-44::150", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("-999", gg.TYPE_FLOAT)
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("539,246,596;8200D;2.4903147e21F", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(3)
+gg.editAll("8300", gg.TYPE_DWORD)
+gg.alert("Izinkan")
+gg.searchNumber("10000;0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("0", gg.TYPE_FLOAT) gg.toast("Wallhack Mediatek Aktif")
+end
+function WH8()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("2;-1;0;1;-127::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(20)
+gg.editAll("20", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges (gg.REGION_BAD)
+gg.searchNumber("4,141D;4.7408155e21;-5.5693206e-40;4.814603e21;3.7615819e-37;2:", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(2) gg.editAll("100", gg.TYPE_FLOAT)
+gg.clearResults() 
+gg.setRanges (gg.REGION_BAD)
+gg.searchNumber("-1.0285578e-38;3.7615819e-37;2;-1;1;-127::300", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(20)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Wallhack Kirin Aktif")
+end
 function LOBB()
   LB = gg.multiChoice({
-  "1.🔥 New Magic Bullet 🔥",
-  "2.🔥 New Magic Bullet 2 🔥",
-  "3.🔥 New Magic Bullet 3 🔥",
-  "4.🔥 No Recoil 🔥",
-  "5.🔥 Less Recoil 🔥",
+  "1.🌌 New Magic Bullet ",
+  "2.🌌 New Magic Bullet V2 ",
+  "3.🌌 New Magic Bullet V3 ",
+  "4.🌌 No Recoil ",
+  "5.🌌 Less Recoil ",
   "\226\158\168\239\184\143 BACK \226\158\168\239\184\143"
-  }, nil, "🔥 Lobby Menu 🔥")
+  }, nil, "🌌 Lobby Menu 🌌")
   if LB == nil then
   else
   if LB[1] == true then
@@ -624,30 +672,35 @@ function LBY5()
 end
 function GAMEM()
   GM = gg.multiChoice({
-  "1.\226\154\148\239\184\143 Extended Review \226\154\148\239\184\143",
-  "2.\226\154\148\239\184\143 Antenna \226\154\148\239\184\143",
-  "3.\226\154\148\239\184\143 Antenna 2 \226\154\148\239\184\143",
-  "4.\226\154\148\239\184\143 No Grass \226\154\148\239\184\143",
-  "5.\226\154\148\239\184\143 Aim Bot \226\154\148\239\184\143",
-  "6.\226\154\148\239\184\143 Long Jump\226\154\148\239\184\143",
-  "7.\226\154\148\239\184\143 Bullet Tracking \226\154\148\239\184\143",
-  "8.\226\154\148\239\184\143 KAR Powershot \226\154\148\239\184\143",
-  "9.\226\154\148\239\184\143 Speed M4 \226\154\148\239\184\143",
-  "10.\226\154\148\239\184\143 Speed AKM \226\154\148\239\184\143",
-  "11.\226\154\148\239\184\143 Speed Scar \226\154\148\239\184\143",
-  "12.\226\154\148\239\184\143 No Grass & Trass \226\154\148\239\184\143",
-  "13.\226\154\148\239\184\143 NEW Aim Bot \226\154\148\239\184\143",
-  "14.\226\154\148\239\184\143 Speed hack \226\154\148\239\184\143",
-  "15.\226\154\148\239\184\143 Bullet troungh wall \226\154\148\239\184\143",
-  "16.\226\154\148\239\184\143 Aim Accuracy \226\154\148\239\184\143",
-  "17.\226\154\148\239\184\143 Aim Head \226\154\148\239\184\143",
-  "18.\226\154\148\239\184\143 fast switch \226\154\148\239\184\143",
-  "19.\226\154\148\239\184\143 Fly \226\154\148\239\184\143",
-  "20.\226\154\148\239\184\143 No House \226\154\148\239\184\143",
-  "21.\226\154\148\239\184\143 Visual lift \226\154\148\239\184\143",
-  "22.\226\154\148\239\184\143 Quick Scope KAR 96 \226\154\148\239\184\143",
-  "\226\158\168\239\184\143 BACK \226\158\168\239\184\143"
-  }, nil, "\226\156\168\239\184\143 GAME Menu \226\156\168\239\184\143")
+  "1.🎮 Extended Review ",
+  "2.🎮 Antenna ",
+  "3.🎮 Antenna V2 ",
+  "4.🎮 No Grass ",
+  "5.🎮 Aim Bot ",
+  "6.🎮 Long Jump ",
+  "7.🎮 Bullet Tracking ",
+  "8.🎮 KAR Powershot ",
+  "9.🎮 Speed M4 ",
+  "10.🎮 Speed AKM ",
+  "11.🎮 Speed Scar ",
+  "12.🎮 No Grass & Trass ",
+  "13.🎮 NEW Aim Bot ",
+  "14.🎮 Speed hack ",
+  "15.🎮 Bullet troungh wall ",
+  "16.🎮 Aim Accuracy ",
+  "17.🎮 Aim Head ",
+  "18.🎮 fast switch ",
+  "19.🎮 Fly ",
+  "20.🎮 No House ",
+  "21.🎮 Visual lift ",
+  "22.🎮 Quick Scope KAR 96 ",
+  "23.🎮 WallShot ",
+  "24.🎮 NEW Bullet Troungh Wall ",
+  "25.🎮 Increase Damage ",
+  "26.🎮 Weapon Antenna ",
+  "27.🎮 High Jump ",    
+  "\226\158\168\239\184\143 BACK "
+  }, nil, "🎮 GAME Menu 🎮")
   if GM == nil then
   else
 if GM[1] == true then
@@ -715,8 +768,23 @@ if GM[1] == true then
     end 
   if GM[22] == true then
       G22()
-    end     
+    end 
   if GM[23] == true then
+      G23()
+    end
+  if GM[24] == true then
+      G24()
+    end
+  if GM[25] == true then
+      G25()
+    end
+  if GM[26] == true then
+      G26()
+    end 
+  if GM[27] == true then
+      G27()
+    end  
+  if GM[28] == true then
       HOME()
     end
   end
@@ -907,13 +975,13 @@ function G14()
   gg.toast('SpeedHack telah aktif')
 end
 function G15()
-  gg.setRanges(gg.REGION_C_BSS)
+  gg.setRanges(gg.REGION_ANONYMOUS)
   gg.clearResults()
   gg.searchNumber("869,711,765D;2;1::55", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(2)
-  gg.editAll("-25", gg.TYPE_FLOAT)
-  gg.toast("WallShot telah aktif")
+  gg.getResults(100)
+  gg.editAll("0", gg.TYPE_FLOAT)
+  gg.toast("bullet wall trough Aktif")
   gg.clearResults()
 end
 function G16()
@@ -994,16 +1062,85 @@ gg.editAll("500000", gg.TYPE_FLOAT)
 gg.clearResults()
 gg.toast("Quick Open kar Aktif")
 end
+function G23()
+  gg.setRanges(gg.REGION_C_BSS)
+  gg.clearResults()
+  gg.searchNumber("869,711,765D;2;1::55", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(2)
+  gg.editAll("0", gg.TYPE_FLOAT)
+  gg.toast("WallShot telah aktif")
+  gg.clearResults()
+end
+function G24()
+gg.clearResults(Sukses)
+gg.searchNumber("30;58::10", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("30;58", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(850)
+print("Replaced: ", gg.editAll("0", gg.TYPE_FLOAT))
+gg.clearResults(850)
+gg.clearResults()
+gg.toast("Aktif")
+end
+function G25()
+  gg.clearResults()
+  gg.searchNumber("1868784978;1850305641;28518", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1868784978", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100000)
+  gg.editAll("1868756429", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.searchNumber("1750294898;1415932769;1819307365", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1750294898;1415932769;1819307365", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100000)
+  gg.editAll("100000", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.toast("Aktif")
+end
+function G26()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("7.1689529418945", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(3)
+gg.editAll("999999999", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("3.4779739379883;2.8345839977264;3.1967880725861;3.8841888904572;3.1528658866882::208", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("3.4779739379883", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1)
+gg.editAll("003,005,0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("7.4993133544922", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("7.4993133544922", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1)
+gg.editAll("999", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("0.73620933294296", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(3)
+gg.editAll("999999999", gg.TYPE_FLOAT)
+gg.toast("Aktif")
+end
+function G27()
+  gg.clearResults(850)
+  gg.toast("Loading...")
+  gg.searchNumber("1;35;443;0.5;55;0.57357645035", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(850)
+  print("Replaced: ", gg.editAll("0.5", gg.TYPE_FLOAT))
+  gg.clearResults(850)
+  gg.toast("Aktif")
+end
 function VIEW()
  VW = gg.multiChoice({
-    "1.💥 [GAME] Snow Landscape 💥",
-    "2.💥 [GAME] Black Landscape 💥",
-    "3.💥 [GAME] SnowFlakes\n Miranmar 💥",
-    "4.💥 [GAME] Black Sky 💥",
-    "5.💥 [GAME] Open Sit Scope 💥",
-    "6.💥 [GAME] Off Sit Scope 💥",
+    "1.🌄 [GAME] Snow Landscape ",
+    "2.🌄 [GAME] Black Landscape ",
+    "3.🌄 [GAME] SnowFlakes\n Miranmar ",
+    "4.🌄 [GAME] Black Sky ",
+    "5.🌄 [GAME] Open Sit Scope ",
+    "6.🌄 [GAME] Off Sit Scope ",
     "\226\158\168\239\184\143 BACK"
-  }, nil, "💥View Menu💥")
+  }, nil, "🌄View Menu🌄")
   if VW == nil then
   else
   if VW[1] == true then
@@ -1090,11 +1227,11 @@ function VW6()
 end
 function CAR()
   CARM = gg.multiChoice({
-    "1.🚍 [GAME] Jeep Drive in water 🚍",
-    "2.🚍 [GAME] Drive Through Wall 🚍",
-    "3.🚍 [GAME] Jeep Acceleration 🚍",
+    "1.🚜 [GAME] Jeep Drive in water ",
+    "2.🚜 [GAME] Drive Through Wall ",
+    "3.🚜 [GAME] Jeep Acceleration ",
     "\226\158\168\239\184\143 BACK"
-  }, nil, "🚍Cars Menu🚍")
+  }, nil, "🚜Cars Menu🚜")
   if CARM == nil then
   else
   if CARM[1] == true then
@@ -1239,7 +1376,8 @@ function Z5()
   HO = gg.choice({
     "1.🚀 [GAME] HeadOnly\n open Scope ",
     "2.🚀 [GAME] HeadShot\n open Scope ",
-    "3.🚀 [GAME] Auto hit\n 50%body 50%headshoot ",
+    "3.🚀 [GAME] Auto hit\n 50%body 50%headshot ",
+    "4.🚀 [GAME] NEW Headshot ",  
     "\226\158\168\239\184\143 BACK"
   }, nil, "🚀Headshoot Menu🚀")
   if HO == 1 then
@@ -1251,7 +1389,10 @@ function Z5()
     if HO == 3 then
     HO3()
   end
-  if HO == 4 then
+   if HO == 4 then
+    HO4()
+  end
+  if HO == 5 then
     HOME()
   end
 end
@@ -1300,6 +1441,26 @@ function HO3()
   gg.editAll("1500", gg.TYPE_FLOAT)
   gg.clearResults()
   gg.toast("Autohit telah aktif")
+end
+function HO4()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(2)
+  gg.editAll("-460", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.searchNumber("-88.73961639404;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(2)
+  gg.editAll("-560", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("99999", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("NEW HaedShot Aktif")
 end
 function MC()
   KR = gg.choice({
