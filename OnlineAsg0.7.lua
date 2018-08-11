@@ -1238,10 +1238,10 @@ function Z5()
  function HEAD()
   HO = gg.choice({
     "1.🚀 [GAME] HeadOnly\n open Scope ",
-    "2.🚀 [GAME] HeadOnly 2\n open Scope ",
+    "2.🚀 [GAME] HeadShot\n open Scope ",
     "3.🚀 [GAME] Auto hit\n 50%body 50%headshoot ",
     "\226\158\168\239\184\143 BACK"
-  }, nil, "🚀Headshoot Menu🔥")
+  }, nil, "🚀Headshoot Menu🚀")
   if HO == 1 then
     HO1()
   end
@@ -1276,7 +1276,8 @@ gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(2)
 gg.editAll("560", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast("HeadOnly2 telah aktif")
+gg.toast("HeadShot Aktif")
+gg.setVisible(false)
 end
 function HO3()
   gg.clearResults()
