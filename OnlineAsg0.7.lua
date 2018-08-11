@@ -96,8 +96,9 @@ function WNC()
   "19.\226\154\161\239\184\143 Black\n All Devices [Lobby]\226\154\161\239\184\143",
   "20.\226\154\161\239\184\143 HOT Color\226\154\161\239\184\143",
   "21.\226\154\161\239\184\143 Purple (SD 425-435)\226\154\161\239\184\143",
-  "22.\226\154\161\239\184\143 Red 2 \226\154\161\239\184\143",
+  "22.\226\154\161\239\184\143 Rainbow \226\154\161\239\184\143",
   "23.\226\154\161\239\184\143 WallHack 410-435 \226\154\161\239\184\143",
+  "24.\226\154\161\239\184\143 WallHack 425-435 V2 \226\154\161\239\184\143",
   "\226\158\168\239\184\143 BACK \226\158\168\239\184\143"
   }, nil, "\226\156\168\239\184\143 WH & Color Menu \226\156\168\239\184\143")
   if WC == nil then
@@ -171,7 +172,10 @@ function WNC()
    if WC[23] == true then
       WALLSD()
     end
-  if WC[24] == true then
+   if WC[24] == true then
+      WALSD2()
+    end
+  if WC[25] == true then
       HOME()
     end
   end
@@ -466,12 +470,18 @@ function C16()
 gg.toast("purple SD 425-435 Aktif")
 end
 function C17()
- gg.setRanges(gg.REGION_BAD)
- gg.clearResults()
- gg.searchNumber("589826", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
- gg.getResults(666222)
- gg.editAll("-2222", gg.TYPE_DWORD)
-gg.toast("Red Aktif")
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("201851904;16;20;2048;64", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("201851904", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("8", gg.TYPE_DWORD)
+gg.clearResults()
+gg.searchNumber("201851904;16;20;1280;64", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("201851904", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("8", gg.TYPE_DWORD)
+gg.toast("Rainbow Aktif")
 end
 function WALLSD()
   gg.clearResults()
@@ -488,6 +498,28 @@ function WALLSD()
   gg.toast("Wallhack SD 410-425 Aktif")
   gg.clearResults()
   end
+function WALSD2()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("4,141D;4.7408155e21;-5.5693206e-40;4.814603e21;3.7615819e-37;2:", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(4)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.toast("30%")
+  gg.clearResults()
+  gg.searchNumber("-1.0285578e-38;3.7615819e-37;2;-1;1;-127::300", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(4)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.toast("60%")
+  gg.clearResults()
+  gg.searchNumber("304.00009155273;3.7615819e-37;2;-1;1;-127::240", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(4)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.toast("100%")
+  gg.toast("Wallhack 435/425 V2 Aktif")
+end
 function LOBB()
   LB = gg.multiChoice({
   "1.🔥 New Magic Bullet 🔥",
