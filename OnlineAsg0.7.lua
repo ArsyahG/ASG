@@ -30,13 +30,13 @@ gg.toast("www.youtube.com/c/ArsyahG")
 HOME = 1
 function HOME()
     HM = gg.choice({
-    "🔥🔥 Wallhack and Color 🔥🔥 ",
-    "🔥🔥        Lobby       🔥🔥",
-    "🔥🔥        Games       🔥🔥",
-    "🔥🔥      View Menu     🔥🔥",
-    "🔥🔥      Car Menu      🔥🔥",
-    "🔥🔥      Zoom Menu     🔥🔥",
-    "🔥🔥      Head Menu     🔥🔥",
+    "🌀🌀 WALLHACK & COLOR 🌀🌀 ",
+    "🌀🌀🌀🌀🌀 LOBBY 🌀🌀🌀🌀🌀",
+    "🌀🌀🌀🌀🌀 GAMES 🌀🌀🌀🌀🌀",
+    "🌀🌀🌀🌀 VIEW MENU 🌀🌀🌀🌀",
+    "🌀🌀🌀🌀 CAR MENU 🌀🌀🌀🌀",
+    "🌀🌀🌀🌀 ZOOM MENU 🌀🌀🌀🌀",
+    "🌀🌀🌀🌀 HEAD MENU 🌀🌀🌀🌀",
     "\226\158\168\239\184\143 EXIT ",
   "\226\156\179\239\184\143 MY Contact \226\156\179\239\184\143"
   }, nil, [[
